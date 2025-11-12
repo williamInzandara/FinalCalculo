@@ -1,64 +1,70 @@
-# Proyecto Final de Cálculo Multivariable — graFyApi
+# 🧮 Proyecto Final de Cálculo Multivariable — graFyApi
 
-**graFyApi** es una aplicación web interactiva desarrollada en **Next.js** que permite visualizar, analizar y experimentar con **funciones de varias variables**.  
-Fue creada como apoyo para el aprendizaje de Cálculo Multivariable, permitiendo representar superficies 3D, gradientes, límites y puntos críticos de manera dinámica.
+**graFyApi** es una aplicación web interactiva desarrollada con **Next.js** que permite visualizar, analizar y experimentar con **funciones de varias variables**.  
+Este proyecto fue diseñado como apoyo didáctico para la comprensión del **Cálculo Multivariable**, integrando conceptos como gradientes, derivadas parciales, límites y superficies 3D en una interfaz visual moderna.
 
 ---
 
-## Cómo ejecutar la aplicación
+## ⚠️ Nota importante antes de comenzar
 
-### Requisitos previos
-- Tener **Node.js** (versión 18 o superior)
-- Tener **npm** (instalado con Node automáticamente)
+> 🔴 **IMPORTANTE:**  
+> Dentro de este repositorio aparece una carpeta llamada **`.venv`** (entorno virtual de Python).  
+> Este proyecto **no usa Python**, sino **Node.js**, por lo tanto esa carpeta **no es necesaria y debe eliminarse** antes de ejecutar el proyecto.  
+>  
+> Puede eliminarla sin problema para evitar errores de entorno o conflictos de dependencias.
 
-Puedes verificarlo ejecutando:
-```bash
-node -v
-npm -v
+---
 
- Ejecución en modo desarrollo
+## ⚙️ Instalación
 
-Ejecuta el siguiente comando:
+1. Descargue o clone este repositorio:
+   
+git clone https://github.com/juanvizuette7/FinalCalculo.git
+
+## Ingrese a la carpeta del proyecto:
+
+cd FinalCalculo
+
+
+## Instale las dependencias necesarias:
+
+npm install
+
+## Para iniciar la aplicación en modo desarrollo, ejecute:
 
 npm run dev
 
 
-Una vez compilado, abre el navegador en:
+## Generar la versión final (build)
 
- http://localhost:3000
-
-Generar la versión final (build)
-
-Para compilar la versión optimizada:
+Para compilar una versión optimizada y lista para entrega o despliegue:
 
 npm run build
 npm start
 
- Funcionalidades principales
+
+## Funcionalidades principales
 
 Visualización 3D de superficies definidas por funciones f(x, y)
 
-Cálculo de gradientes y derivadas parciales
+Cálculo y representación de gradientes y derivadas parciales
 
-Análisis de intersecciones, límites y contornos
+Análisis de intersecciones, límites y curvas de nivel
 
-Modo de exploración interactiva y gradiente dinámico
+Modo interactivo con controles dinámicos de exploración
 
-Interfaz moderna desarrollada con Next.js 16 y Tailwind CSS
+Interfaz moderna desarrollada con Next.js 16, React y Tailwind CSS
 
-Autor
+## Autor
 
-Juan Vizuette (William Inzandara)
-Estudiante de Ingeniería de Software — Universidad Cooperativa de Colombia
-Proyecto: Cálculo Multivariable Interactivo — graFyApi
-Año: 2025
+Julio Esteba Bolaños Benavides
+William Dario Inzandara Lagos 
+Khaled Santiago Benavides Obando
 
-Tecnologías utilizadas
+## Tecnologías utilizadas
 
 Next.js 16 (React)
 
 TypeScript
 
 Tailwind CSS
-
-Node.js
